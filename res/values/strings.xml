@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Android Test</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="button_string">Press me</string>
+    <string name="name">Name</string>
+    <string name="email">eMail</string>
+    <string name="comment">Comment</string>
+    <string name="button">Comment!</string>
+    <string name="twitter">Twitter</string>
+    <string name="facebook">Facebook</string>
+    <string name="refresh">Refresh</string>
+    <string name="fragment_swap">Fragment Swap</string>
+    <string name="query">Query DB</string>
+    <string name="startservice">Start Service</string>
+    <string name="stopservice">Stop Service</string>
+    <string name="downloadimage">Download image</string>
+    <string name="multithreading">Multithreading</string>
+    
+</resources>

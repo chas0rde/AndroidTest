@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center_horizontal"
+    android:orientation="vertical" >
+
+    <Button
+        android:id="@+id/newtread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="startService"
+        android:text="@string/startservice" />
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="stopService"
+        android:text="@string/stopservice" />
+
+    <Button
+        android:id="@+id/pausethread"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:onClick="pauseThread"
+        android:text="@string/downloadimage" />
+
+    <ImageView
+        android:id="@+id/downloadedImage"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/aperture_logo" />
+
+</LinearLayout>
